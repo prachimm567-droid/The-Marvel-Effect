@@ -1,0 +1,36 @@
+{
+  "dataset_rows": 3000,
+  "features": [
+    "empathy",
+    "leadership",
+    "loyalty",
+    "risk_taking",
+    "strategic_thinking",
+    "independence",
+    "impulsiveness",
+    "moral_reasoning",
+    "humor",
+    "self_sacrifice"
+  ],
+  "target": "character",
+  "classes": [
+    "Bucky Barnes",
+    "Doctor Strange",
+    "Loki",
+    "Natasha Romanoff",
+    "Peter Parker",
+    "Shuri",
+    "Steve Rogers",
+    "Thor",
+    "Tony Stark",
+    "Wanda Maximoff"
+  ],
+  "train_rows": 2400,
+  "test_rows": 600,
+  "test_size": 0.2,
+  "random_state": 42,
+  "selection_metric": "macro_f1",
+  "final_model": "Logistic Regression",
+  "data_type": "synthetic controlled variation around engineered character reference profiles",
+  "note": "Metrics describe performance on this synthetic dataset and should not be interpreted as psychological accuracy."
+}
